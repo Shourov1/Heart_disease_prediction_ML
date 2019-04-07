@@ -42,10 +42,10 @@ This data set is from the UCI Machine Learning library and can be found here: ht
 
 # Why these parameters:
 	Age: 
-Age is the most important risk factor in developing cardiovascular or heart diseases, with approximately a tripling of risk with each decade of life.[24] Coronary fatty streaks can begin to form in adolescence.[25] It is estimated that 82 percent of people who die of coronary heart disease are 65 and older.[26] Simultaneously, the risk of stroke doubles every decade after age 55.
+Age is the most important risk factor in developing cardiovascular or heart diseases, with approximately a tripling of risk with each decade of life. Coronary fatty streaks can begin to form in adolescence. It is estimated that 82 percent of people who die of coronary heart disease are 65 and older. Simultaneously, the risk of stroke doubles every decade after age 55.
 
 	Sex: 
-Men are at greater risk of heart disease than pre-menopausal women.[24][30] Once past menopause, it has been argued that a woman's risk is similar to a man's[30] although more recent data from the WHO and UN disputes this.[24] If a female has diabetes, she is more likely to develop heart disease than a male with diabetes.
+Men are at greater risk of heart disease than pre-menopausal women. Once past menopause, it has been argued that a woman's risk is similar to a man's although more recent data from the WHO and UN disputes this. If a female has diabetes, she is more likely to develop heart disease than a male with diabetes.
 
 	Angina (Chest Pain):
 Angina is chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood. It may feel like pressure or squeezing in your chest. The discomfort also can occur in your shoulders, arms, neck, jaw, or back. Angina pain may even feel like indigestion.
@@ -82,14 +82,27 @@ A treadmill ECG stress test is considered abnormal when there is a horizontal or
 # Model Training and Prediction : 
 We can train our prediction model by analyzing existing data because we already know whether each patient has heart disease. This process is also known as supervision and learning. The trained model is then used to predict if users suffer from heart disease. The training and prediction process is described as follows:
 
-# Splitting: 
+## Splitting: 
 First, data is divided into two parts using component splitting. In this experiment, data is split based on a ratio of 80:20 for the training set and the prediction set. The training set data is used in the logistic regression component for model training, while the prediction set data is used in the prediction component.
 
-# Logistic Regression:
+## Logistic Regression:
 Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
 
-# Prediction:
+## Prediction:
 The two inputs of the prediction component are the model and the prediction set. The prediction result shows the predicted data, actual data, and the probability of different results in each group.
 
-# Evaluation: 
+## Evaluation: 
 The confusion matrix, also known as the error matrix, is used to evaluate the accuracy of the model.
+
+# Built With
+
+* [Python 3.7](https://www.python.org/downloads/).
+
+
+## Author
+
+* **Md Shariful Alam** - [Shariful](https://github.com/Shourov1)
+
+## Acknowledgments
+
+*[UCI archive](https://archive.ics.uci.edu/ml/index.php) - for providing the datasets.
