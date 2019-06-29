@@ -1,5 +1,7 @@
 # Heart Disease prediction_ML.
 
+[![CircleCI](https://circleci.com/gh/Shourov1/Heart_disease_prediction_ML.svg?style=svg)](https://circleci.com/gh/Shourov1/Heart_disease_prediction_ML) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 The problem is based on the given information about each individual we have to calculate that whether that individual will suffer from heart disease.
 
 # Dataset details:
