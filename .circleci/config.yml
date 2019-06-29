@@ -21,7 +21,7 @@ jobs:
           command: |
             . venv/bin/activate
             python3 Heart_Disease_Classifier_svm.py
-            python3 Heart_Disease_Classifier_Regression.py
+            python3 Heart_Disease_Regression.py
 
       - store_artifacts:
           path: test-reports/
